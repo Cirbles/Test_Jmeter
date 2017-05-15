@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+var q = 0.1,
+step = 10,
+sumDay = 5,
+sumGift = 10000;
+
+function jilv(day, gift){
+return q*(10/(parseInt(gift*10/sumGift)+1))*(day/sumDay);
+};
+
+alert(jilv(2, 4000));
+</script>
+</body>
+</html>
